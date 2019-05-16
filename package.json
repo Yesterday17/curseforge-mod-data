@@ -1,0 +1,25 @@
+{
+  "name": "curseforge-mod-data",
+  "description": "Daily updated Minecraft Curseforge mod metadata & language files.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Yesterday17/curseforge-mod-data",
+  "author": "Yesterday17 <t@yesterday17.cn>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.4.32",
+    "@types/unzip": "^0.1.1",
+    "gh-pages": "^2.0.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "axios": "^0.18.0",
+    "del": "^4.1.1"
+  }
+}
